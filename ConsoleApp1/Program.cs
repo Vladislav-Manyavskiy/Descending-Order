@@ -3,30 +3,8 @@ using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-
-
-    class Mashin
-    {
-        public string Name;
-        public int Age;
-
-        public Mashin(string name,int age)
-        {
-            this.Name = name;
-            this.Age = age;
-        }
-
-        public void Display()
-        {
-            Console.WriteLine($"Name: {Name}; Age:{Age}");
-        }
-
-    }
-    
     class Program
     { 
-
-
 
     static void Main(string[] args)
         {
